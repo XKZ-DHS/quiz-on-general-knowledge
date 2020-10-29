@@ -71,8 +71,56 @@ if answer_ex == 'start':
                     points = points + 1
                   elif answer_ex == '2':
                     points = points
-                  print(str(points) + "/9")      
-          # End of quiz (Aidan if u have additional questions add it above this line.
+                  print(str(points) + "/9")
                   answer_ex = input("Press C to continue!")
                   if answer_ex == 'c':
-                    print("Thank you for playing! You got " + str(points) + " correct! Well done!")
+                    answer_ex = input ("What is SCP 173 commonly likened to in appearance? 1.A statue 2. A peanut")
+                    if answer_ex == '1':
+                      points = points
+                    elif answer_ex == '2':
+                      points = points + 1
+                    print(str(points) + "/10")
+                    answer_ex = input("Press C to continue!")
+                    if answer_ex == 'c':
+                      answer_ex = input ("Which of the following is a safe class SCP? 1. SCP 999 2. SCP 173")
+                      if answer_ex == '1':
+                        points = points + 1
+                      elif answer_ex == '2':
+                        points = points
+                      print(str(points) + "/11")
+                      answer_ex = input("Press C to continue!")
+                      if answer_ex == 'c':
+                        answer_ex = input ("What does SCP stand for? 1. Strange Creature Protection 2. Secure Contain Protect")
+                        if answer_ex == '1':
+                          points = points
+                        elif answer_ex == '2':
+                          points = points + 1
+                        print(str(points) + "/12")
+                        answer_ex = input("Press C to continue!")
+                        if answer_ex == 'c':
+                          answer_ex = input ("Why is SCP 682 dangerous? 1.It has an array of sharp claws and teeth, and a tail which can snap a humans legs in class. 2. It simply cannot die and hates all life")
+                          if answer_ex == '1':
+                            points = points
+                          elif answer_ex == '2':
+                            points = points + 1
+                          print(str(points) + "/13")
+                          answer_ex = input("Press C to continue!")  
+                          if answer_ex == 'c':
+                            answer_ex = input ("What is SCP 001’s name 1. The Scarlet King 2. Alpha Male")
+                            if answer_ex == '1':
+                              points = points + 1
+                            elif answer_ex == '2':
+                              points = points
+                            print(str(points) + "/14")
+                            answer_ex = input("Press C to continue!")   
+                            if answer_ex == 'c':
+                              answer_ex = input ("What has been rumoured to have temporarily killed SCP 682? 1. SCP 173 2. SCP 4218")
+                              if answer_ex == '1':
+                                points = points + 1
+                              elif answer_ex == '2':
+                                points = points
+                              print(str(points) + "/15")                
+                           # End of quiz (Aidan if u have additional questions add it above this line.
+                              answer_ex = input("Press C to continue!")
+                              if answer_ex == 'c':
+                                print("Thank you for playing! You got " + str(points) + " correct! Well done!")
